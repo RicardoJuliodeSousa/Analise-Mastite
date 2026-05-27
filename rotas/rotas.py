@@ -1,5 +1,6 @@
 from flask import Blueprint, request
 
+
 cadastro = Blueprint('cadastro', __name__)
 
 @cadastro.route('/cadstro', method='POST')
